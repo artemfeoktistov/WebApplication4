@@ -12,6 +12,8 @@ namespace WebApplication4
     {
         protected void Application_Start()
         {
+            //Khartum
+            String d = "fdf";
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
